@@ -1,0 +1,32 @@
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+
+  .comment-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .controls {
+      color: blue;
+      font-size: 12px;
+
+      span {
+        margin-right: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .reply-section{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
